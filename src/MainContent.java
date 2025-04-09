@@ -16,12 +16,12 @@ public class MainContent extends JPanel {
     this.y = 100;
     this.player1 = new Player(100, 100);
 
-    this.moveRight();
+    this.move();
     ;
 
   }
 
-  public void moveRight() { // בכל שנייה תגדיל את איקס ב1
+  public void move() { // בכל שנייה תגדיל את איקס ב1
     new Thread(() -> {
       while (true) {
         this.player1.moveRight();

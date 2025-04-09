@@ -18,11 +18,11 @@ public class Player {
     this.x--;
   }
 
-  public void moveUp() {
+  public void moveDown() {
     this.y++;
   }
 
-  public void moveDown() {
+  public void moveUp() {
     this.y--;
   }
 
